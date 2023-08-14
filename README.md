@@ -1,0 +1,20 @@
+# First-project-
+#include<stdio.h>
+#include<stdlib.h>
+     
+int main()
+
+{
+	
+	int secretnumber=8055;
+	int guess;
+	
+	while(guess!=secretnumber)
+	{
+	
+		printf("enter a number: ");
+		scanf("%d",&guess);
+	}
+	printf("you win! i will give you 10rs");
+	
+}
